@@ -1,0 +1,484 @@
+body{
+    background-color: black;
+}
+.align{
+    margin-top:7%;
+    width:70%; 
+    margin-left:15%;
+}
+
+.verticle{
+   height:95%; 
+   width:85%; 
+}
+
+.horizontal{
+    margin-top:30%;
+}
+
+.square{
+    height:95%; 
+    width:95%; 
+}
+
+.messagebox{
+    border: 5px solid wheat; 
+    position: absolute;
+    height: 40%;
+    width:35%;
+    margin-top: 5%;
+    margin-left: 27%;
+    z-index: 0;
+}
+
+.message{
+    position: absolute;
+    text-align: center;
+    margin-top: 28%;
+    margin-left: 63.5%;
+    z-index: 1;
+    font-size: 12px;
+    color: white;
+}
+
+.message-top{
+    position: absolute;
+    text-align: center;
+    margin-top: -105%;
+    margin-left: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+ }
+
+.message-bottom{
+    position: absolute;
+    text-align: center;
+    margin-top: -15%;
+    margin-left: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+ }
+
+.message-title{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 60.5%;
+    z-index: 1;
+    font-size: 25px;
+    color: white;
+}
+
+.message-title2{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 60.5%;
+    z-index: 1;
+    font-size: 25px;
+    color: black;
+}
+
+.message-title-right{
+    position: absolute;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 45%;
+    z-index: 1;
+    font-size: 15px;
+    color: white;
+}
+
+.message-title-left{
+    position: absolute;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 15%;
+    z-index: 1;
+    font-size: 22px;
+    color: white;
+}
+
+.message-titlesm{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 60.5%;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+}
+
+.messagebox-left{
+    border: 7px double wheat;
+    position: absolute;
+    height: 20%;
+    width:9%;
+    margin-top: 15%;
+    margin-left: -11%;
+    z-index: 1;
+}
+
+.messagebox-right{
+    border: 5px solid wheat; 
+    position: absolute;
+    height: 20%;
+    width:17%;
+    margin-top: 15%;
+    margin-left: 59%;
+    z-index: 1;
+}
+
+.messagebox-rightnb{
+    position: absolute;
+    height: 20%;
+    width:17%;
+    margin-top: 15%;
+    margin-left: 59%;
+    z-index: 1;
+}
+
+.messageboxin{
+    border: 5px solid gray; 
+    position: absolute;
+    height: 33%;
+    width: 27.5%;
+    margin-top: 7%;
+    margin-left: 30%;
+    z-index: 0;
+}
+
+.messageboxin2{
+    border: 5px solid lightgray; 
+    position: absolute;
+    height: 26%;
+    width: 23%;
+    margin-top: 8.9%;
+    margin-left: 32.3%;
+    z-index: 0;
+}
+
+.messageboxnb{ 
+    position: absolute;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 27%;
+    z-index: 0;
+}
+
+.midbox{
+    background-color: wheat;
+}
+.midtitle{
+    width: 70%;
+    text-align: center;
+    margin-left: 125%;
+    margin-top: -70%;
+    font-size: 23px;
+    border: 7px double gray;
+}
+
+.midmessage{
+    width: 70%;
+    text-align: center;
+    margin-left: 125%;
+    margin-top: 15%;
+    font-size: 17px;
+}
+
+.midtitle2{
+    width: 70%;
+    text-align: center;
+    margin-left: 125%;
+    margin-top: -70%;
+    font-size: 23px;
+    border: 7px double white;
+    color: white;
+}
+
+.midmessage2{
+    width: 70%;
+    text-align: center;
+    margin-left: 125%;
+    margin-top: 15%;
+    font-size: 17px;
+    color: white;
+}
+
+.frame{
+    border: 7px solid gray;
+    padding: 10px;
+}
+
+.frameY{
+    border: 7px solid wheat;
+    padding: 10px;
+}
+.frame-nopadding{
+    border: 7px solid gray;
+ }
+
+.frame2{
+    border: 7px solid wheat; 
+    margin-top: -3%;
+    margin-left: 40%;
+    height: 50%;
+    width:35%;
+    padding:10px;
+    position: absolute;
+    z-index: -1;
+    background-color: wheat;
+ }
+
+.frame2-horizontal{
+    border-right: 30px solid gray; 
+    margin-top: -3%;
+    margin-left: 40%;
+    height: 40%;
+    width:35%;
+    padding:10px;
+    position: absolute;
+    z-index: -1;
+    background-color: wheat;
+}
+
+.verticle-frame2{
+    border: 7px solid wheat; 
+    background-color: wheat;
+    margin-left: -13%;
+    margin-top:-120%;
+    height: 108%;
+    width: 30%;
+    position: absolute;
+    z-index: -1;
+}
+
+.frame3{
+    border: 7px solid wheat;
+    padding: 10px;
+}
+
+.lgframe{
+    border: 7px solid lightgray;
+    padding: 10px;
+}
+ 
+.double{
+    border: 15px double wheat;
+    padding: 10px;
+}
+
+.framepad{
+    border: 12px solid wheat;
+    padding: 10px;
+    background-color: gray;
+}
+
+.pad{
+    padding: 20px;
+}
+
+.partleft{
+    margin-left: -25%;
+}
+
+.partright{
+    margin-left: 25%;
+}
+
+.adjust{
+    margin-left:-55%;
+}
+.adjust2{
+ margin-top: -100%;
+    margin-left: 150%;
+}
+
+.ribbon{
+    border: 7px solid wheat; 
+    margin-top: 15%;
+    height: 20%;
+    width: 100%;
+    margin-left: -15%;
+    padding:10px;
+    position: absolute;
+    z-index: -1;
+    background-color: wheat;
+
+}
+
+@media (max-width: 1024px) {
+
+    .messagebox{
+        border: 5px solid wheat; 
+        position: absolute;
+        height: 15%;
+        margin-top: 5%;
+        margin-left: 27%;
+        z-index: 0;
+    }
+
+    .message-title{
+        position: absolute;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 60.5%;
+        z-index: 1;
+        font-size: 16px;
+    }
+    
+    .message{
+        position: absolute;
+        text-align: center;
+        margin-top: 28%;
+        margin-left: 63.5%;
+        z-index: 1;
+        font-size: 8px;
+        
+    }
+
+    .messagebox-left{
+        border: 7px double wheat;
+        position: absolute;
+        height: 10%;
+        width:11.5%;
+        margin-top: 15%;
+        margin-left: -12%;
+        z-index: 1;
+    }
+    
+    .frame2{
+        border: 7px solid wheat; 
+        margin-top: -3%;
+        margin-left: 40%;
+        height: 20%;
+        width: 34%;
+        padding:10px;
+        position: absolute;
+        z-index: -1;
+        background-color: wheat;
+     }
+
+     .frame2-horizontal{
+        border-right: 30px solid gray; 
+        margin-top: -3%;
+        margin-left: 40%;
+        height: 40%;
+        width:34%;
+        padding:10px;
+        position: absolute;
+        z-index: -1;
+        background-color: wheat;
+    }
+
+     .verticle-frame2{
+        border: 7px solid wheat; 
+        background-color: wheat;
+        margin-left: -13%;
+        margin-top:-120%;
+        height: 115%;
+        position: absolute;
+        z-index: -1;
+    }
+    .message-title-left{
+        position: absolute;
+        text-align: center;
+        margin-top: 12%;
+        margin-left: 15%;
+        z-index: 1;
+        font-size: 20px;
+    }
+
+    .messagebox-right{
+        border: 5px solid wheat; 
+        position: absolute;
+        height: 9%;
+        width:23%;
+        margin-top: 15%;
+        margin-left: 58%;
+        z-index: 1;
+    }
+
+    .message-title-right{
+        position: absolute;
+        text-align: center;
+        margin-top: 12%;
+        margin-left: 40%;
+        z-index: 1;
+        font-size: 15px;
+    }
+
+    .frame2-horizontal{
+        border-right: 30px solid gray; 
+        margin-top: -3%;
+        margin-left: 43%;
+        height: 17%;
+        padding:10px;
+        position: absolute;
+        z-index: -1;
+        background-color: wheat;
+    }
+
+    .midbox{
+        background-color: wheat;
+        height:50%;
+    }
+
+    .midtitle{
+        width: 70%;
+        text-align: center;
+        margin-left: 130%;
+        margin-top: -89%;
+        font-size: 23px;
+        border: 7px double gray;
+    }
+    
+    .midmessage{
+        width: 70%;
+        text-align: center;
+        margin-left: 130%;
+        margin-top: 15%;
+        font-size: 17px;
+    }
+
+    .messageboxin{
+        border: 5px solid gray; 
+        position: absolute;
+        height: 12%;
+        width: 27.5%;
+        margin-top: 7%;
+        margin-left: 30%;
+        z-index: 0;
+    }
+    
+    .messageboxin2{
+        border: 5px solid lightgray; 
+        position: absolute;
+        height: 8.8%;
+        width: 23%;
+        margin-top: 8.9%;
+        margin-left: 32.3%;
+        z-index: 0;
+    
+    }
+    .ribbon{
+        border: 7px solid wheat; 
+        margin-top: 15%;
+        height: 7%;
+        margin-left: -15%;
+        padding:10px;
+        position: absolute;
+        z-index: -1;
+        background-color: wheat;
+    
+    }
+    .align{
+        margin-top:10%;
+        width:70%; 
+        margin-left:15%;
+    }
+  }
+
+  

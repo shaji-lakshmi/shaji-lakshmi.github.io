@@ -1,0 +1,60 @@
+body{
+    font-family: bullen,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#brand{
+    color:white;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+.links{
+    color: white;
+}
+
+.links:hover{
+    background-color: wheat;
+    color:black;
+}
+
+.row{
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+}
+
+#navFluid{
+    padding:0;
+}
+
+#about{
+    border-top: .5px solid gray;
+    border-bottom: .5px solid gray;
+    width: 70%; 
+    margin-left: 15%;
+}
+
+h5{
+    margin-left: 15%;
+    color: wheat;
+}
+
+.card-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.about_pic{
+    padding-top: 10%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
