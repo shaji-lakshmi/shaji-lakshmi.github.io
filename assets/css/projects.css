@@ -7,3 +7,43 @@ body{
 margin-top:5%;
 margin-bottom:5%;
 }
+
+h3{
+    color: wheat;
+}
+
+.btn{
+    color: black;
+    background-color: wheat;
+    border: 2px solid black;
+}
+
+.btn:hover{
+    color: wheat;
+    background-color: black;
+    border: 2px solid wheat;
+}
+.titles{
+    text-align: center;
+}
+
+.modal-header, .modal-footer{
+    background-color: wheat;
+}
+
+.modal-body{
+    border-left: 7px double wheat;
+    border-right: 7px double wheat;
+    background-color: black;
+}
+
+.modal-title{
+    color:black;
+}
+i{
+    color: wheat;
+}
+
+h6{
+    color: wheat;
+}

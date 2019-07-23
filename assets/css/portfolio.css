@@ -2,6 +2,8 @@ body{
     font-family: bullen,serif;
     font-weight: 400;
     font-style: normal;
+    padding:0;
+    background-color: black;
 }
 
 #brand{
@@ -52,3 +54,56 @@ h5{
 .about_pic{
     padding-top: 10%;
 }
+
+
+p{
+    color: white; 
+}
+
+strong{
+    color: wheat;
+}
+.sidenav{
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    width: 20%;
+    top:0; 
+    left:0;
+    z-index: 1;
+    overflow-x: hidden;
+    border-left: wheat double 10px;
+}
+
+.sidenav a{
+    margin-top: 25px;
+    padding-top:10px;
+    text-align: center;
+    color: white; 
+    display:block; 
+    padding: 15px;
+    font-size: 17px;
+}
+
+.sidenav h6{
+    color: white; 
+    text-align: center;
+}
+
+.sidenav a:hover{
+    background-color: wheat; 
+    color:black;
+}
+#brand:hover{
+    background-color: black;
+}
+
+.main{ 
+    margin-left: 20%;
+    padding-right: 0;
+}
+
+.container-fluid{
+    padding:0;
+}
+
