@@ -173,15 +173,17 @@ body{
 }
 .midtitle{
     width: 70%;
+    color: black;
     text-align: center;
     margin-left: 125%;
     margin-top: -70%;
     font-size: 23px;
-    border: 7px double gray;
+    border: 7px double black;
 }
 
 .midmessage{
     width: 70%;
+    color: black;
     text-align: center;
     margin-left: 125%;
     margin-top: 15%;
