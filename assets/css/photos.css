@@ -1,6 +1,10 @@
 body{
     background-color: black;
 }
+
+.top-margin{
+    margin-top:7%;
+}
 .align{
     margin-top:7%;
     width:70%; 
