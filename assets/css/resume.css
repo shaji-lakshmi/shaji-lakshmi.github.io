@@ -10,6 +10,11 @@ body{
     background-color: wheat;
     border: 2px solid black;
 }
+.btn:hover{
+    color: wheat;
+    background-color: black;
+    border: 2px solid wheat;
+}
 
 strong{
     color:wheat;
