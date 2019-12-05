@@ -5,6 +5,11 @@ body{
 .align{
     margin-top:10%;
 }
+.btn{
+    color: black;
+    background-color: wheat;
+    border: 2px solid black;
+}
 
 strong{
     color:wheat;
