@@ -9,6 +9,11 @@ body{
 #brand{
     color:white;
 }
+.btn{
+    color: black;
+    background-color: wheat;
+    border: 2px solid black;
+}
 
 .container-fluid{
     padding:0;
