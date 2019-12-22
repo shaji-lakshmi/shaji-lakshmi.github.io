@@ -2,6 +2,17 @@ body{
     background-color: black;
 }
 
+.modal-header{
+    background-color: black;
+}
+
+.modal-body{
+    background-color: black;
+}
+
+.modal-title{
+    color:wheat;
+}
 .top-margin{
     margin-top:7%;
 }
@@ -337,17 +348,17 @@ body{
 
 .pillarleft{
 
-margin-left: -65%;
+margin-left: -90%;
 }
 
 .pillarright{
-    margin-left: 280%;
-    margin-top: -153%;
+    margin-left: 300%;
+    margin-top: -180%;
 }
 
 
 .midpillar{
-    margin-left: -30%;
+    margin-left: -55%;
 }
 
 .mainphoto{ 
