@@ -6,16 +6,43 @@ body{
     background-color: black;
 }
 
+
+.card{
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+a{
+    color: wheat;
+}
+a:hover{
+    color: white;
+}
+
 #brand{
     color:white;
 }
+.sticky-top{
+    background-color: black;
+}
 
+.heading{
+    padding-top: 30px;
+}
 
 .container-fluid{
     padding:0;
 }
 
+.card-img-top{
+    width: 80%;
+    margin-left: 15%;
+}
+
 .links{
+    font-size: 20px;
     color: white;
 }
 
@@ -30,20 +57,18 @@ body{
     margin: 0;
 }
 
-#navFluid{
-    padding:0;
-}
 
 #about{
-    border-top: .5px solid gray;
-    border-bottom: .5px solid gray;
-    width: 70%; 
-    margin-left: 15%;
+    font-size: 20px;
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 5%;
 }
 
 h5{
     margin-left: 15%;
     color: wheat;
+    font-size: 25px;
 }
 
 .card-footer{
@@ -64,46 +89,7 @@ p{
 strong{
     color: wheat;
 }
-.sidenav{
-    height: 100%;
-    background-color: black;
-    position: fixed;
-    width: 20%;
-    top:0; 
-    left:0;
-    z-index: 1;
-    overflow-x: hidden;
-    border-left: wheat double 10px;
-    border-right: wheat double 10px;
-}
 
-.sidenav a{
-    margin-top: 25px;
-    padding-top:10px;
-    text-align: center;
-    color: white; 
-    display:block; 
-    padding: 15px;
-    font-size: 17px;
-}
-
-.sidenav h6{
-    color: white; 
-    text-align: center;
-}
-
-.sidenav a:hover{
-    background-color: wheat; 
-    color:black;
-}
-#brand:hover{
-    background-color: black;
-}
-
-.main{ 
-    margin-left: 20%;
-    padding-right: 0;
-}
 
 .container-fluid{
     padding:0;

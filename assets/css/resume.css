@@ -29,7 +29,7 @@ strong{
 
 .gray{
     color:rgb(182, 178, 178);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .gray2{
@@ -39,12 +39,12 @@ strong{
 .gray-small{
     padding: 3px;
     color:rgb(182, 178, 178);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .white{
     color:white;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 a{
