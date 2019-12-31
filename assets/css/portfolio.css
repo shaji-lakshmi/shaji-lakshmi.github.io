@@ -12,7 +12,9 @@ body{
     background-color: transparent;
 }
 
-
+#introPic{
+    height:auto;
+}
 
 a{
     color: wheat;
@@ -64,6 +66,7 @@ a:hover{
     padding-left: 5%;
     margin-bottom: 5%;
 }
+
 
 h5{
     margin-left: 15%;
