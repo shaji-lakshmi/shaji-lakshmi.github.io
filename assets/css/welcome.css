@@ -54,3 +54,11 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+i{
+  color: white;
+}
+
+i:hover{
+  color:wheat;
+}
