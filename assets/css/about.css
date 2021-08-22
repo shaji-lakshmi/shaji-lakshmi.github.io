@@ -45,5 +45,11 @@ body {
 }
 /* rtl:end:ignore */
 
+i{
+  color: grey;
+}
 
+i:hover{
+  color:black;
+}
 
