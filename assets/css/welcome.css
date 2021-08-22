@@ -56,9 +56,9 @@ body {
 }
 
 i{
-  color: white;
+  color: rgba(255, 255, 255, .5);
 }
 
 i:hover{
-  color:wheat;
+  color:white;
 }
