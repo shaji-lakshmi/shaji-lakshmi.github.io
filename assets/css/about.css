@@ -1,0 +1,49 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.jumbotron{
+  background-color: #343e3e;
+  color: white;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  padding-top: 3%;
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.headings{
+  text-align: center;
+  padding-top: 2%;
+  color: black;
+}
+
+.marketing{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: solid lightgrey 1px;
+}
+/* rtl:end:ignore */
+
+
+
